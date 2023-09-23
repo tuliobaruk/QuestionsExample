@@ -206,5 +206,317 @@
     },
     "explanation": null,
     "tip": null
-}
+    },
+    {
+        "question": "What is the purpose of the 'static' keyword in Java, and how does it affect variables and methods?",
+        "description": null,
+        "category": "Java",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "The 'static' keyword is used to declare variables that are only accessible within the same class.",
+            "answer_b": "The 'static' keyword is used to declare variables and methods that belong to the class itself, rather than to any specific instance of the class.",
+            "answer_c": "The 'static' keyword is used to declare variables and methods that can only be accessed from other classes within the same package.",
+            "answer_d": "The 'static' keyword is used to create instances of a class.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the Java Virtual Machine (JVM), and why is it important in Java programming?",
+        "description": null,
+        "category": "Java",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "The JVM is a tool for compiling Java code into machine code.",
+            "answer_b": "The JVM is a library for handling input and output operations in Java programs.",
+            "answer_c": "The JVM is a runtime environment that executes Java bytecode, allowing Java programs to be platform-independent.",
+            "answer_d": "The JVM is a tool for optimizing database queries in Java applications.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the difference between '==' and '.equals()' when comparing objects in Java?",
+        "description": null,
+        "category": "Java",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "'==' compares the content of objects, while '.equals()' compares their references.",
+            "answer_b": "'==' compares the references of objects, while '.equals()' compares their content.",
+            "answer_c": "'==' and '.equals()' are equivalent and can be used interchangeably.",
+            "answer_d": "'==' and '.equals()' are not used for object comparison in Java.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the purpose of the 'transient' keyword in Java when applied to instance variables?",
+        "description": null,
+        "category": "Java",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "The 'transient' keyword is used to declare variables that cannot be changed after they are initialized.",
+            "answer_b": "The 'transient' keyword is used to indicate that a variable should not be serialized when an object is converted into a byte stream.",
+            "answer_c": "The 'transient' keyword is used to define variables that are only accessible within the same class.",
+            "answer_d": "The 'transient' keyword is used to declare variables that are thread-safe and can be accessed by multiple threads simultaneously.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the purpose of the 'finally' block in a Java try-catch-finally statement?",
+        "description": null,
+        "category": "Java",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "The 'finally' block is used to catch exceptions and handle them.",
+            "answer_b": "The 'finally' block is used to execute code that must be run regardless of whether an exception is thrown or not.",
+            "answer_c": "The 'finally' block is used to specify the type of exception to catch.",
+            "answer_d": "The 'finally' block is used to define variables that are only accessible within the try-catch-finally statement.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the Java Native Interface (JNI), and how is it used in Java programming?",
+        "description": null,
+        "category": "Java",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "The JNI is a Java library for creating user interfaces in desktop applications.",
+            "answer_b": "The JNI is a Java framework for handling network communication.",
+            "answer_c": "The JNI is a programming interface that allows Java code to interact with code written in other programming languages, such as C and C++.",
+            "answer_d": "The JNI is a Java tool for optimizing database queries in Java applications.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is an abstract class in Java, and how is it different from an interface?",
+        "description": null,
+        "category": "Java",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "An abstract class is a class that cannot be instantiated and may contain both abstract and concrete methods, while an interface can only contain abstract methods and cannot be instantiated directly.",
+            "answer_b": "An abstract class is a class that must be marked with the 'abstract' keyword and cannot contain any methods, while an interface can contain both abstract and concrete methods.",
+            "answer_c": "An abstract class is a class that can only contain private methods, while an interface can contain public methods.",
+            "answer_d": "An abstract class is a class that can be marked with the 'final' keyword to prevent it from being subclassed, while an interface cannot be marked as final.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is garbage collection in Java, and how does it help manage memory?",
+        "description": null,
+        "category": "Java",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "Garbage collection in Java refers to manually releasing memory resources used by objects.",
+            "answer_b": "Garbage collection in Java is a process where the JVM automatically identifies and frees up memory used by objects that are no longer reachable or referenced by the program.",
+            "answer_c": "Garbage collection in Java is a feature that allows objects to be explicitly destroyed by the programmer to free up memory.",
+            "answer_d": "Garbage collection in Java is a mechanism for optimizing network communication in Java applications.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the purpose of the 'super' keyword in Java, and how is it used in inheritance?",
+        "description": null,
+        "category": "Java",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "The 'super' keyword is used to call the superclass constructor and initialize the subclass.",
+            "answer_b": "The 'super' keyword is used to create a new instance of a superclass.",
+            "answer_c": "The 'super' keyword is used to access private methods and variables of the superclass.",
+            "answer_d": "The 'super' keyword is used to indicate that a class is a subclass of another class.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is Java serialization, and how is it used for object persistence?",
+        "description": null,
+        "category": "Java",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "Java serialization is a process of converting Java objects into a byte stream for network communication.",
+            "answer_b": "Java serialization is a technique for creating objects in Java.",
+            "answer_c": "Java serialization is a method for optimizing database queries in Java applications.",
+            "answer_d": "Java serialization is a way to define interfaces in Java.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the purpose of the 'synchronized' keyword in Java, and how does it help manage concurrency?",
+        "description": null,
+        "category": "Java",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "The 'synchronized' keyword is used to specify that a method should be called only once in a Java program.",
+            "answer_b": "The 'synchronized' keyword is used to declare variables that cannot be changed after they are initialized.",
+            "answer_c": "The 'synchronized' keyword is used to create thread-safe blocks of code, ensuring that only one thread can execute the synchronized block at a time.",
+            "answer_d": "The 'synchronized' keyword is used to indicate that a class should not be subclassed.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the purpose of the 'volatile' keyword in Java when applied to variables?",
+        "description": null,
+        "category": "Java",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "The 'volatile' keyword is used to declare variables that cannot be changed after they are initialized.",
+            "answer_b": "The 'volatile' keyword is used to indicate that a variable should not be accessed by multiple threads simultaneously.",
+            "answer_c": "The 'volatile' keyword is used to declare variables that are automatically initialized to their default values.",
+            "answer_d": "The 'volatile' keyword is used to declare variables that may be modified by multiple threads, ensuring that changes are visible to all threads.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    }
 ]

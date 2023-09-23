@@ -258,5 +258,265 @@
         },
         "explanation": null,
         "tip": null
+    },
+    {
+        "question": "Which AWS service provides a highly scalable and distributed data storage service for big data analytics?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon S3",
+            "answer_c": "Amazon EMR",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service allows you to set up, operate, and scale a relational database in the cloud?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon EC2",
+            "answer_c": "Amazon DynamoDB",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service provides a fully managed message broker service for building event-driven applications?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon S3",
+            "answer_c": "Amazon SQS",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service is designed for easily creating, managing, and scaling containerized applications using Docker?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon EC2",
+            "answer_c": "Amazon ECS",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service is a fully managed stream processing service?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon S3",
+            "answer_c": "Amazon Kinesis",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service provides a serverless compute platform that automatically scales to match the incoming traffic?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon EC2",
+            "answer_c": "AWS Lambda",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service is designed for creating and managing quantum computing experiments?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "Amazon S3",
+            "answer_b": "Amazon Quantum Ledger Database",
+            "answer_c": "Amazon Braket",
+            "answer_d": "Amazon ElastiCache",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service provides a fully managed, serverless data integration service that makes it easy to move data between data stores?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "Amazon S3",
+            "answer_b": "AWS Glue",
+            "answer_c": "Amazon Aurora",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service offers a fully managed, distributed ledger database that provides a transparent and immutable transaction log?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon Aurora",
+            "answer_c": "Amazon Quantum Ledger Database",
+            "answer_d": "Amazon Kinesis Data Streams",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service is a fully managed, serverless application delivery service that automatically scales with your application traffic?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "Amazon CloudFront",
+            "answer_b": "Amazon API Gateway",
+            "answer_c": "Amazon App Runner",
+            "answer_d": "AWS Step Functions",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
     }
 ]

@@ -440,5 +440,83 @@
         },
         "explanation": null,
         "tip": null
+    },
+    {
+        "question": "In Python, what is the Global Interpreter Lock (GIL), and how does it affect multi-threaded programs?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "The GIL is a memory management tool in Python that improves multi-threading performance.",
+            "answer_b": "The GIL is a data structure that stores global variables in Python, making them accessible from any thread.",
+            "answer_c": "The GIL is a mutex that protects access to Python objects, preventing multiple threads from executing Python bytecodes at once.",
+            "answer_d": "The GIL is a Python module for handling graphics and GUI programming.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is a generator in Python, and how is it different from a regular function?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "A generator is a type of list in Python, while a regular function is used for calculations and data processing.",
+            "answer_b": "A generator is a function that returns an iterable sequence of values one at a time, while a regular function computes and returns a single value.",
+            "answer_c": "A generator is a built-in module in Python, while a regular function is user-defined.",
+            "answer_d": "A generator is a way to declare and initialize variables, while a regular function is used for control flow operations.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is method resolution order (MRO) in Python, and why is it important in object-oriented programming?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "MRO is a Python module for handling regular expressions in strings.",
+            "answer_b": "MRO is a way to define multiple inheritance in Python.",
+            "answer_c": "MRO is the order in which Python searches for attributes and methods in classes and their parent classes, and it's important for determining the behavior of objects in inheritance hierarchies.",
+            "answer_d": "MRO is a Python library for managing system resources and processes.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
     }
 ]
