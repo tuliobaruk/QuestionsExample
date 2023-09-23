@@ -48,3 +48,41 @@ Os seguintes campos estão disponíveis para cada questão:
 - **correct_answers**: Um conjunto de respostas corretas, representadas como um objeto.
 - **explanation**: (Opcional) Uma explicação sobre a resposta correta (pode ser nulo).
 - **tip**: (Opcional) Uma dica opcional relacionada à pergunta (pode ser nulo).
+
+---
+
+# Python script
+
+Este script Python está disponível neste repositório para facilitar a importação de dados em servidores MongoDB. Ele automatiza o processo de importação de arquivos JSON presentes na mesma pasta em que o script está localizado. 
+
+Certifique-se de configurar a conexão com o servidor MongoDB, o banco de dados e a coleção de destino conforme necessário antes de executar o script. Isso pode ser útil para importar dados em lote de arquivos JSON para o MongoDB em seu ambiente de desenvolvimento ou produção.
+
+```python
+import os
+import json
+
+# a bliblioteca pymongo é essencial para o script funcionar
+from pymongo import MongoClient
+
+# Conecte-se ao servidor MongoDB (certifique-se de que o servidor MongoDB esteja em execução)
+client = MongoClient('mongodb://localhost:27017/')
+
+# Acesse o banco de dados e a coleção onde você deseja importar os dados
+db = client['QuestionsAPI'] # O Nome do Banco de dados que será criado
+collection = db['Questions'] # O Nome da Collection que será criada
+
+# Diretório onde os arquivos JSON estão localizados (pasta atual do arquivo .py)
+json_directory = os.path.dirname(__file__)
+
+# Criação de uma lista com todos os arquivos .json na pasta
+json_files = [f for f in os.listdir(json_directory) if f.endswith('.json')]
+
+# Itera sobre os arquivos .json e insere os dados na coleção
+for json_file in json_files:
+    with open(os.path.join(json_directory, json_file), 'r') as file:
+        data = json.load(file)
+        collection.insert_many(data)
+
+# Feche a conexão com o servidor MongoDB
+client.close()
+```
