@@ -1,0 +1,262 @@
+[
+    {
+        "question": "What is the primary purpose of Amazon S3 in AWS?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "To launch EC2 instances",
+            "answer_b": "To store and retrieve data",
+            "answer_c": "To manage virtual networks",
+            "answer_d": "To create relational databases",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service is designed for scalable and flexible load balancing of incoming application traffic?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon EC2",
+            "answer_c": "Elastic Load Balancing (ELB)",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What AWS service allows you to run code without provisioning or managing servers?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon EC2",
+            "answer_c": "AWS Lambda",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What AWS service provides a managed NoSQL database service?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon EC2",
+            "answer_c": "Amazon S3",
+            "answer_d": "Amazon DynamoDB",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service provides a way to distribute content to end users with low latency and high data transfer speeds?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon EC2",
+            "answer_c": "Amazon CloudFront",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What AWS service provides a scalable and fully managed data warehouse?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon EC2",
+            "answer_c": "Amazon CloudFront",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service allows you to set up and configure a virtual cloud-based network?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon EC2",
+            "answer_c": "Amazon VPC",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What AWS service is used for real-time monitoring and logging of AWS resources and applications?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon CloudFront",
+            "answer_c": "Amazon CloudWatch",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What AWS service provides a fully managed service for container orchestration?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon EC2",
+            "answer_c": "Amazon ECS",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which AWS service provides a scalable and high-performance database service for applications?",
+        "description": null,
+        "category": "AWS",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Amazon RDS",
+            "answer_b": "Amazon EC2",
+            "answer_c": "Amazon DynamoDB",
+            "answer_d": "Amazon Redshift",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    }
+]

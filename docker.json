@@ -1,0 +1,522 @@
+[
+    {
+        "question": "What is the mission of the control plane in Kubernetes?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "To manage clusters of pods",
+            "answer_b": "It makes sure that the actual state of system objects match the desired state.",
+            "answer_c": "To move workloads from one host to another",
+            "answer_d": "To control nodes",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Containers running on a single machine all share the same operating system kernel.",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "False",
+            "answer_b": "True",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which of the following are features of Kubernetes?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "Self-healing",
+            "answer_b": "Kubernetes Swarm",
+            "answer_c": "Secrets and configuration management",
+            "answer_d": "Batch execution",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": null,
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "How can you make sure your Docker containers and their data are safely backed up?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "Backup the /var/lib/docker/ directory manually  Nothing.",
+            "answer_b": "Data stored in Docker containers is backed up to Docker Hub.",
+            "answer_c": "Schedule regular Plesk backups. Docker containers are included in Plesk backups.",
+            "answer_d": "Set up volume mapping on all containers to store their data in a single location on the server (example, /data/) and backup this location.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What does HPA stand for in Kubernetes?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "Hyper Pod Autoscaler",
+            "answer_b": "Horizontal Production Autoscaler",
+            "answer_c": "Horizontal Pod Autoscaler",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What does the FROM instruction do in a Dockerfile?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "FROM creates a layer from a base Docker image.",
+            "answer_b": "FROM specifies the creator of the image",
+            "answer_c": "FROM is an invalid instruction",
+            "answer_d": "FROM adds files from your Docker client’s current directory",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "How to search for a docker image on dockerhub with the name mentioned in the command.",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "$ docker search",
+            "answer_b": "$ docker --search ---hadoop",
+            "answer_c": "$ docker search hadoop",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Following Docker command: eval $(docker-machine env default)  is used to:",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "Activate default VM machine",
+            "answer_b": "Build an image",
+            "answer_c": "Access a running container",
+            "answer_d": "Commit changes done in a Docker image",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "How to stop a container?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "$ docker trim <container_id>",
+            "answer_b": "$ docker dead <container_id>",
+            "answer_c": "$ docker stop <container_id>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which flag is used to specify the path to the configuration file in kube-proxy?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "–cluster-cidr string",
+            "answer_b": "–config string",
+            "answer_c": "–detect-local-mode LocalMode",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the command in Docker which lists the details of all the network in the cluster.",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "$ docker network as",
+            "answer_b": "$ docker network ls",
+            "answer_c": "$ docker network ps",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which of the following is a hosted service that provides a Registry with build and testing facilities for Dockerized application images, tools to help you set up and manage your host infrastructure.",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "Docker Cloud",
+            "answer_b": "Docker Compose",
+            "answer_c": "Docker Hub",
+            "answer_d": "Docker Universal Control Plane",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which command will you use to pull a Docker image?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "docker get IMAGE_NAME",
+            "answer_b": "docker image-pull IMAGE_NAME",
+            "answer_c": "docker pull IMAGE_NAME",
+            "answer_d": "docker start IMAGE_NAME",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Where can you find and share Docker container images?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Docker Swarm",
+            "answer_b": "Docker Cloud",
+            "answer_c": "Docker Hub",
+            "answer_d": "Docker Git",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which of the following is a valid Kubernetes configuration? Select those answers that apply.",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "All-in-One Kubernetes Installation",
+            "answer_b": "Single Master (with etcd) and Multi-Worker Nodes",
+            "answer_c": "External etcd Cluster, Single Master and Multi-Worker Nodes",
+            "answer_d": "External etcd Cluster, Multi-Master and Multi-Worker Nodes",
+            "answer_e": "Kubernetes Swarm",
+            "answer_f": null
+        },
+        "correct_answer": null,
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "true",
+            "answer_c_correct": "true",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is Docker Machine?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "Docker machine is a tool that lets you install Docker Engine on virtual hosts",
+            "answer_b": "Docker machine is a tool that lets you install Docker files on virtual hosts",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "How to stop a container with container id mentioned in the command?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "$ docker ter 109cb6nw",
+            "answer_b": "$ docker stop -ls 109cb6nw",
+            "answer_c": "$ docker stop 109cb6nw",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "How to update the container's configurations which shows all the update options.",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "$ docker update -help",
+            "answer_b": "$ docker update help",
+            "answer_c": "$ docker update --help",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Select all true statements for a node in Kubernetes?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "A node is a worker machine in Kubernetes, previously known as a minion",
+            "answer_b": "Each node contains the services necessary to run pods and is managed by the master components",
+            "answer_c": "A node may be a VM or physical machine, depending on the cluster.",
+            "answer_d": "There is only one node in each Kubernetes cluster",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": null,
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "true",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What Is K8s?",
+        "description": null,
+        "category": "Docker",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Kubernetes, also sometimes called K8S (K – eight characters – S), is an open source backend framework for containerized applications that was born from the Azure data centers.",
+            "answer_b": "Kubernetes, also sometimes called K8S (K – eight characters – S), is an open source orchestration framework for containerized applications that was born from the Google data centers.",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    }
+]

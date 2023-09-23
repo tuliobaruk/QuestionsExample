@@ -1,0 +1,210 @@
+[
+{
+    "question": "What is the keyword used to declare a constant variable in Java?",
+    "description": null,
+    "category": "Java",
+    "difficulty": "Easy",
+    "answers": {
+        "answer_a": "final",
+        "answer_b": "static",
+        "answer_c": "const",
+        "answer_d": "constant",
+        "answer_e": null,
+        "answer_f": null
+    },
+    "correct_answer": "answer_a",
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+    },
+    "explanation": null,
+    "tip": null
+},   
+{
+    "question": "What is the process of converting an object into a byte stream in Java called?",
+    "description": null,
+    "category": "Java",
+    "difficulty": "Easy",
+    "answers": {
+        "answer_a": "Serialization",
+        "answer_b": "Compilation",
+        "answer_c": "Encoding",
+        "answer_d": "Decoding",
+        "answer_e": null,
+        "answer_f": null
+    },
+    "correct_answer": "answer_a",
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+    },
+    "explanation": null,
+    "tip": null
+},
+{
+    "question": "Which data structure in Java follows the 'last-in, first-out' (LIFO) principle?",
+    "description": null,
+    "category": "Java",
+    "difficulty": "Easy",
+    "answers": {
+        "answer_a": "Queue",
+        "answer_b": "List",
+        "answer_c": "Set",
+        "answer_d": "Stack",
+        "answer_e": null,
+        "answer_f": null
+    },
+    "correct_answer": "answer_d",
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "true",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+    },
+    "explanation": null,
+    "tip": null
+},
+{
+    "question": "In Java, which keyword is used to define a subclass?",
+    "description": null,
+    "category": "Java",
+    "difficulty": "Easy",
+    "answers": {
+        "answer_a": "extends",
+        "answer_b": "implements",
+        "answer_c": "inherits",
+        "answer_d": "subclasses",
+        "answer_e": null,
+        "answer_f": null
+    },
+    "correct_answer": "answer_a",
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+    },
+    "explanation": null,
+    "tip": null
+},  
+{
+    "question": "Which keyword is used to define a method in an interface in Java?",
+    "description": null,
+    "category": "Java",
+    "difficulty": "Easy",
+    "answers": {
+        "answer_a": "function",
+        "answer_b": "method",
+        "answer_c": "def",
+        "answer_d": "abstract",
+        "answer_e": null,
+        "answer_f": null
+    },
+    "correct_answer": "answer_b",
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+    },
+    "explanation": null,
+    "tip": null
+}, 
+{
+    "question": "What is the purpose of the 'super' keyword in Java?",
+    "description": null,
+    "category": "Java",
+    "difficulty": "Easy",
+    "answers": {
+        "answer_a": "To access the superclass of a derived class",
+        "answer_b": "To define a static method",
+        "answer_c": "To create a new instance of a class",
+        "answer_d": "To cast an object to a different class",
+        "answer_e": null,
+        "answer_f": null
+    },
+    "correct_answer": "answer_a",
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+    },
+    "explanation": null,
+    "tip": null
+},
+{
+    "question": "What is the Java keyword used for exception handling?",
+    "description": null,
+    "category": "Java",
+    "difficulty": "Easy",
+    "answers": {
+        "answer_a": "try",
+        "answer_b": "catch",
+        "answer_c": "throw",
+        "answer_d": "finally",
+        "answer_e": null,
+        "answer_f": null
+    },
+    "correct_answer": "answer_a",
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+    },
+    "explanation": null,
+    "tip": null
+}, 
+{
+    "question": "What is the Java keyword used to create an instance of a class?",
+    "description": null,
+    "category": "Java",
+    "difficulty": "Easy",
+    "answers": {
+        "answer_a": "create",
+        "answer_b": "new",
+        "answer_c": "instance",
+        "answer_d": "instantiate",
+        "answer_e": null,
+        "answer_f": null
+    },
+    "correct_answer": "answer_b",
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+    },
+    "explanation": null,
+    "tip": null
+}
+]

@@ -1,0 +1,522 @@
+[
+    {
+        "question": "Which command will you use to test the connectivity to the host from the master server and make sure that it actually works?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "ansible your_host_name_here -m pong",
+            "answer_b": "ansible your_host_name_here -m connect",
+            "answer_c": "ansible your_host_name_here -m try",
+            "answer_d": "ansible your_host_name_here -m ping",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which command will you use to run a playbook called install.yaml with Ansible?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "ansible-playbook install.yml",
+            "answer_b": "ansible install.yml",
+            "answer_c": "ansible --playbook install.yml",
+            "answer_d": "ansible -p install.yml",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Kubernetes uses _____________ to connect to ouath 2 providers to offload the authentication to external services.",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Webhook Token Authentication",
+            "answer_b": "Keystone Password",
+            "answer_c": "OpenID Connect Tokens",
+            "answer_d": "Authentication Proxy",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Kubernetes cluster data is stored in which of the following?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "Kube-apiserver",
+            "answer_b": "Kubelet",
+            "answer_c": "Etcd",
+            "answer_d": "None of the above",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which Process Runs On Kubernetes Master Node?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Kube-cli-proxy process runs on Kubernetes master node.",
+            "answer_b": "Kube-cli-server process runs on Kubernetes master node.",
+            "answer_c": "Kube-apiserver process runs on Kubernetes master node.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What are the functions of Replication controller?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "It is responsible to control and administer the lifecycle of the pod.",
+            "answer_b": "It helps the user to check the running status of the pod",
+            "answer_c": "It is responsible to monitor and verify whether the allowed number of pod replicas were running",
+            "answer_d": "It is responsible for routing the ingress traffic",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": null,
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "true",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which description best fits a DaemonSet?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "A way to run a copy of a pod on all or some nodes",
+            "answer_b": "A method to manage clusters of pods",
+            "answer_c": "A channel through which to pass information between two or more nodes",
+            "answer_d": "A system to connect nodes and pods",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "To do any administrative task, an administrator connects to ____________.",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Kube Proxy",
+            "answer_b": "The Kubernetes API Server",
+            "answer_c": "etcd",
+            "answer_d": "None of the mentioned",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What does the 'C' stand for in the acronym 'CI/CD' in DevOps?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Continuous",
+            "answer_b": "Configuration",
+            "answer_c": "Collaboration",
+            "answer_d": "Cryptography",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the primary purpose of infrastructure as code (IaC) in DevOps?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Automate software development",
+            "answer_b": "Automate server hardware procurement",
+            "answer_c": "Automate software testing",
+            "answer_d": "Automate infrastructure provisioning",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the main objective of continuous delivery (CD) in the DevOps pipeline?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Automate software deployment",
+            "answer_b": "Automate server monitoring",
+            "answer_c": "Automate database administration",
+            "answer_d": "Automate network configuration",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the primary goal of continuous integration (CI) in DevOps?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Automate server provisioning",
+            "answer_b": "Automate software testing",
+            "answer_c": "Automate code deployment",
+            "answer_d": "Automate data backup",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the key benefit of using containerization technology like Docker in DevOps?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Improved server security",
+            "answer_b": "Simplified software licensing",
+            "answer_c": "Consistent application deployment",
+            "answer_d": "Enhanced network performance",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the primary objective of the 'Monitor' phase in the DevOps lifecycle?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Automate code deployment",
+            "answer_b": "Automate server provisioning",
+            "answer_c": "Automate performance monitoring",
+            "answer_d": "Automate database administration",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the primary purpose of a version control system (VCS) in DevOps?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Automate software deployment",
+            "answer_b": "Track changes to source code",
+            "answer_c": "Automate hardware provisioning",
+            "answer_d": "Monitor server performance",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the primary benefit of using automated testing in the DevOps pipeline?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Reduced software development time",
+            "answer_b": "Simplified server configuration",
+            "answer_c": "Increased hardware scalability",
+            "answer_d": "Enhanced network security",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the primary goal of continuous monitoring in the DevOps pipeline?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Automate code deployment",
+            "answer_b": "Automate server provisioning",
+            "answer_c": "Identify and resolve performance issues",
+            "answer_d": "Automate database backups",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "In DevOps, what does 'IaC' stand for?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Infrastructure as Collaboration",
+            "answer_b": "Integration and Configuration",
+            "answer_c": "Infrastructure as Code",
+            "answer_d": "Infrastructure and Collaboration",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "How is infrastructure code executed in AWS?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Manually by administrators",
+            "answer_b": "Through the use of Docker containers",
+            "answer_c": "By deploying virtual machines",
+            "answer_d": "Using AWS CloudFormation or other IaC tools",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the DevOps pipeline?",
+        "description": null,
+        "category": "DevOps",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "A physical pipeline used for data transfer",
+            "answer_b": "A continuous delivery process in software development",
+            "answer_c": "A monitoring tool for network traffic",
+            "answer_d": "A version control system for infrastructure",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    }
+]

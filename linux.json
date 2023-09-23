@@ -1,0 +1,522 @@
+[
+    {
+        "question": "Expand JFS in context of file system?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Journal File System",
+            "answer_b": "Journal Failing System",
+            "answer_c": "Journal File Service",
+            "answer_d": "Journal Failing Service",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the default working directory of the Linux administrator user?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "/root",
+            "answer_b": "Doesn't have one",
+            "answer_c": "/usr/admin",
+            "answer_d": "/administrator",
+            "answer_e": "/admin",
+            "answer_f": "/home/root"
+        },
+        "correct_answer": null,
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": "The default working directory is always /root. This directory is kept only for the root user and no other.",
+        "tip": null
+    },
+    {
+        "question": "What is the output of the command ‘umask –S’?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Shows mask value using symbolic notion.",
+            "answer_b": "Shows mask value using octal values.",
+            "answer_c": "Removes the current mask value.",
+            "answer_d": "Sets new mask value.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the option to mention field separator for the command ‘cut’",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "-f",
+            "answer_b": "-c",
+            "answer_c": "-d",
+            "answer_d": "\\0",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "How can we list out all currently executing background processes?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "ps -e",
+            "answer_b": "top",
+            "answer_c": "ps faux",
+            "answer_d": "proccess -aux",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "In Kubernetes how to create a service for a replicated Nginx, which serves on port 80 and connects to the containers on port 8000?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "kubectl expose rc nginx --port=8080 --target-port=80",
+            "answer_b": "kubectl rc nginx --port=80 --target-port=8000",
+            "answer_c": "kubectl expose nginx --port=80 --target-port=8000",
+            "answer_d": "kubectl expose rc nginx --port=80 --target-port=8000",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "How to list all Kubernetes services in the current namespace?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "kubectl get-all services",
+            "answer_b": "kubectl print services",
+            "answer_c": "kubectl dump services",
+            "answer_d": "kubectl get services",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "How will you pass and access arguments to a script in Linux/Bash?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "scriptName “Arg1” “Arg2”….”Argn” and can be accessed inside the script as $1 , $2 .. $n.",
+            "answer_b": "scriptName -arg “Arg1” “Arg2”….”Argn” and can be accessed inside the script as $1 , $2 .. $n.",
+            "answer_c": "scriptName \"Arg1 Arg2….Argn” and can be accessed inside the script as $1 , $2 .. $n.",
+            "answer_d": "scriptName “Arg1” “Arg2”….”Argn” and can be accessed inside the script as $Arg1 , $Arg2 .. $Argn.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "How to show the metrics for a given node in Kubernetes?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "kubectl ps node my-node",
+            "answer_b": "kubectl resources node my-node",
+            "answer_c": "kubectl top node my-node",
+            "answer_d": "kubectl uptime node my-node",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "How to dump pod logs, with label name=myLabel (stdout) in Kubernetes",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "kubectl log name=myLabel",
+            "answer_b": "kubectl pod -l name=myLabel",
+            "answer_c": "kubectl logs -l name=myLabel",
+            "answer_d": "kubectl logs -l .name[*]=myLabel",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "How can we redirect the output of one command to the another command?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "Place the commands connected with pipes (|).",
+            "answer_b": "Use the Xargs command",
+            "answer_c": "Use the stdin and stdout",
+            "answer_d": "Use the numbers 1 and 2 for standart input(stdin) and standart output(stdout)",
+            "answer_e": "Both commands which include stdin and stdout",
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "tcpdump is a packet-sniffing Linux command that offers administrators the ability to monitor what?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Hard",
+        "answers": {
+            "answer_a": "Server performance",
+            "answer_b": "Network traffic and activity",
+            "answer_c": "Application performance",
+            "answer_d": "Files and directories",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "If you execute the command ‘umask 0002’, what will happen",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "Next time when we create a file using the chmod command, the permissions of will be 664",
+            "answer_b": "Next time when we create a file using the chmod command, the permissions of will be 666",
+            "answer_c": "Next time when we create a file using the chmod command, the permissions of will be 002",
+            "answer_d": "None of the mentioned",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which command can be used to make variables of shell to be made available to sub shell?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "import",
+            "answer_b": "export",
+            "answer_c": "echo",
+            "answer_d": "set",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is a daemon?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "It is a generic name for e-mail servers on Linux. The most famous one is mailer-daemon",
+            "answer_b": "It is a program that keeps running on the background after it is called, answering to requests done by users and other programs.",
+            "answer_c": "It is an antivirus for Linux.",
+            "answer_d": "It is the generic name for any Linux server.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the default priority of the swap partition",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Medium",
+        "answers": {
+            "answer_a": "0",
+            "answer_b": "-1",
+            "answer_c": "10",
+            "answer_d": "1",
+            "answer_e": "There are no priorities for swap",
+            "answer_f": "100"
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which command can give disk usage summary?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "chkdsk",
+            "answer_b": "fdisk",
+            "answer_c": "du",
+            "answer_d": "df",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which command do we need to use if we want to see all packages installed on the system (Ubuntu)",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "dpkg -l",
+            "answer_b": "packageall -l",
+            "answer_c": "dpkg -a",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which command is used to create file archives in Linux?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "arc",
+            "answer_b": "zip",
+            "answer_c": "ps",
+            "answer_d": "tar",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the default port for the SSH protocol?",
+        "description": null,
+        "category": "Linux",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "22",
+            "answer_b": "23",
+            "answer_c": "21",
+            "answer_d": "24",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    }
+]

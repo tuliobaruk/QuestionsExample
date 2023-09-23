@@ -1,0 +1,444 @@
+[
+    {
+        "question": "What is Python primarily known for?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Web development",
+            "answer_b": "Data analysis and machine learning",
+            "answer_c": "Networking",
+            "answer_d": "3D game development",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which of the following is not a valid Python data type?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Integer",
+            "answer_b": "String",
+            "answer_c": "List",
+            "answer_d": "Map",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the output of 'print(3 * 5)' in Python?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "15",
+            "answer_b": "8",
+            "answer_c": "53",
+            "answer_d": "Error",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "In Python, how do you define a function?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "def function_name:",
+            "answer_b": "function_name():",
+            "answer_c": "function_name def:",
+            "answer_d": "function_name",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which keyword is used for defining a class in Python?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "class",
+            "answer_b": "def",
+            "answer_c": "function",
+            "answer_d": "object",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What does the 'len()' function in Python return?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "The length of a string",
+            "answer_b": "The square root of a number",
+            "answer_c": "The current date and time",
+            "answer_d": "The sum of a list",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the Pythonic way to iterate over a list and its index?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Using a while loop",
+            "answer_b": "Using a for loop with an index counter",
+            "answer_c": "It is not possible to iterate over both list and index simultaneously in Python",
+            "answer_d": "Using a foreach loop",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the purpose of 'elif' in Python?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "To create a new list",
+            "answer_b": "To check if a file exists",
+            "answer_c": "To handle multiple conditions in an 'if' statement",
+            "answer_d": "To define a class method",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the output of 'print('Hello, World!')' in Python 3?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "Error",
+            "answer_b": "Hello, World!",
+            "answer_c": "None",
+            "answer_d": "3",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which of the following is a valid comment in Python?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "# This is a comment",
+            "answer_b": "// This is a comment",
+            "answer_c": "-- This is a comment",
+            "answer_d": "/* This is a comment */",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the result of the expression '5 == 5.0' in Python?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": "Error",
+            "answer_d": "5",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_a",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which of the following is true about Python's 'pass' statement?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "It is used to skip the current loop iteration.",
+            "answer_b": "It is used to define an empty function or class.",
+            "answer_c": "It is used to print text to the console.",
+            "answer_d": "It is used to exit a program.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What is the purpose of the 'import' statement in Python?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "To comment out code",
+            "answer_b": "To include external modules or libraries",
+            "answer_c": "To define a new class",
+            "answer_d": "To create a backup of the current file",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_b",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "What does the 'range()' function in Python return?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "A random number",
+            "answer_b": "A list of numbers",
+            "answer_c": "A string",
+            "answer_d": "A sequence of numbers",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which of the following statements is true about Python's 'for' loop?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "It can only iterate over lists.",
+            "answer_b": "It is used to define a function.",
+            "answer_c": "It can iterate over any iterable object.",
+            "answer_d": "It is not supported in Python.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "Which of the following is true about Python's 'while' loop?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "It must have a fixed number of iterations.",
+            "answer_b": "It is used to define a class.",
+            "answer_c": "It can only iterate over lists.",
+            "answer_d": "It continues to execute as long as a condition is true.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_d",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    },
+    {
+        "question": "In Python, what does the 'break' statement do?",
+        "description": null,
+        "category": "Python",
+        "difficulty": "Easy",
+        "answers": {
+            "answer_a": "It defines a new variable.",
+            "answer_b": "It continues to the next iteration of a loop.",
+            "answer_c": "It exits the current loop prematurely.",
+            "answer_d": "It prints a message to the console.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "correct_answer": "answer_c",
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "explanation": null,
+        "tip": null
+    }
+]
